@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Douglas Menezes — Full Stack Developer</title>
+  <desc id="banner-desc">A minimal dark blue banner with the name Douglas Menezes, the subtitle Full Stack Developer, and a subtle curved route framed by code brackets in blue and purple.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C1424"/>
+      <stop offset="1" stop-color="#14182E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#529AFF"/>
+      <stop offset="1" stop-color="#B18AFF"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#4853A3" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4853A3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="18" fill="url(#background)" stroke="#27324C"/>
+  <ellipse cx="1020" cy="140" rx="260" ry="138" fill="url(#glow)"/>
+  <rect x="72" y="64" width="66" height="4" rx="2" fill="url(#accent)"/>
+  <text x="68" y="144" fill="#F2F5FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="58" font-weight="600" letter-spacing="-1.9">Douglas Menezes</text>
+  <text x="73" y="188" fill="#AAB8D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" letter-spacing="1.5">Full Stack Developer</text>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M920 99 L880 140 L920 181 M1050 99 L1090 140 L1050 181" stroke="#63729B" stroke-width="2" opacity="0.55"/>
+    <path d="M820 210 C875 209 947 190 975 148 C1001 108 1016 80 1092 63" stroke="url(#accent)" stroke-width="2" stroke-dasharray="5 7" opacity="0.8"/>
+    <path d="M958 166 L989 115" stroke="#8097CB" stroke-width="2" opacity="0.55"/>
+  </g>
+  <circle cx="820" cy="210" r="4" fill="#529AFF"/>
+  <circle cx="1092" cy="63" r="4" fill="#B18AFF"/>
+</svg>
